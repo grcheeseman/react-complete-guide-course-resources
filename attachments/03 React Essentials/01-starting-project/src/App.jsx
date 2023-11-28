@@ -6,6 +6,7 @@ import TabButton from "./components/TabButton.jsx";
 function App() {
   function handleSelect(selectedButton) {
     // selectedButton => 'components', 'jsx', 'props', 'state'
+    //this is how we are going to dynamically change data when we click on different buttons
     console.log(selectedButton);
   }
 
